@@ -1,4 +1,4 @@
-# 🛡️ BillShield-AWS — Cloud Cost & Security Guardian for Students
+# 🛡️ BillShield-AWS  — Cloud Cost & Security Guardian for Students
 
 **Catch the waste. Close the risk. Before the bill arrives.**
 
@@ -10,11 +10,22 @@
 
 ---
 
+## 🎓 Off Campus Verification
+
+**Off Campus Code:** `8ZEPTB`
+
+This is my original project, developed and maintained as part of my software development journey.
+
+**GitHub Repository:**  
+https://github.com/Kirankumar43-byte/BUILD-BILLSHIELD-AWS
+
+---
+
 ## 🚀 Live Demo
 
 **Explore BillShield without creating an AWS account!**
 
-🔗 **Live Application:** https://billshield-kiran.streamlit.app/
+🌐 **Live Application:** https://billshield-kiran.streamlit.app/
 
 - Try the application using Demo Mode.
 - Explore synthetic AWS resource findings.
@@ -28,7 +39,7 @@
 
 ## 📌 About the Project
 
-**BillShield-AWS** is an AWS cloud cost optimization and security monitoring application designed to help students and developers understand and manage their cloud resources.
+**BillShield -AWS ** is an AWS cloud cost optimization and security monitoring application designed to help students and developers understand and manage their cloud resources.
 
 Cloud services can generate unexpected bills when resources are unused or security configurations are mismanaged.
 
@@ -121,12 +132,12 @@ Allows users to select findings and preview estimated savings and health score i
 
 BillShield supports four interface languages:
 
-| Language | Support |
+| Language | Name |
 |---|---|
-| English | 🇬🇧 |
-| Tamil | தமிழ் |
-| Hindi | हिन्दी |
-| Malayalam | മലയാളം |
+| English | 🇬🇧 English |
+| Tamil | 🇮🇳 தமிழ் |
+| Hindi | 🇮🇳 हिन्दी |
+| Malayalam | 🇮🇳 മലയാളം |
 
 The AI explainer provides rule-based explanations, with optional Amazon Bedrock integration.
 
@@ -307,7 +318,7 @@ Security is an important part of BillShield.
 - Root account access is rejected.
 - Pasted credentials are kept in memory for the browser session and are not saved or logged, according to the application design.
 - Dry-run mode is enabled by default.
-- Real Elastic IP release requires Live Mode, the Settings switch and typed confirmation.
+- Real Elastic IP release requires Live Mode, the Settings switch and typed confirmation (`CONFIRM <id>`).
 - Supported actions are recorded in the audit log.
 - Input validation is performed before supported actions.
 
@@ -330,9 +341,7 @@ Run the test suite:
 python -m pytest -q
 ```
 
-The documented test result is:
-
-**24 passed**
+The documented test result is **24 passed**.
 
 > Testing has been performed using mocked AWS services. The application has not been validated against a real AWS account.
 
@@ -413,4 +422,4 @@ Interested in:
 
 ⭐ If you find BillShield useful, consider giving this repository a star!
 
-**BillShield-AWS — Catch the waste. Close the risk. Before the bill arrives.**
+**BillShield-AWS  — Catch the waste. Close the risk. Before the bill arrives.**
