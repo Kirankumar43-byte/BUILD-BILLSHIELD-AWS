@@ -1,0 +1,8 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {"Sid": "OptionalAlerts", "Effect": "Allow", "Action": "sns:Publish", "Resource": "arn:aws:sns:REGION:ACCOUNT_ID:billshield-alerts"},
+    {"Sid": "OptionalBedrock", "Effect": "Allow", "Action": "bedrock:InvokeModel", "Resource": "*"},
+    {"Sid": "OptionalRealAction", "Effect": "Allow", "Action": "ec2:ReleaseAddress", "Resource": "*"}
+  ]
+}
