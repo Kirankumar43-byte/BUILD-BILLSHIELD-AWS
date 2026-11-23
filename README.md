@@ -1,8 +1,10 @@
-# 🛡️ BillShield v2 — Cloud Cost & Security Guardian for Students
+﻿**Live demo:** BillShield · Streamlit (Demo Mode, synthetic data)
+
+# ðŸ›¡ï¸ BillShield v2 â€” Cloud Cost & Security Guardian for Students
 *Catch the waste. Close the risk. Before the bill arrives.*
 
-Read-only AWS scanner → plain-language findings → month-end forecast → health score → safe, confirmed fixes.
-UI languages: **English, தமிழ், हिन्दी, മലയാളം**. Works with **no AWS account** via Demo Mode.
+Read-only AWS scanner â†’ plain-language findings â†’ month-end forecast â†’ health score â†’ safe, confirmed fixes.
+UI languages: **English, à®¤à®®à®¿à®´à¯, à¤¹à¤¿à¤¨à¥à¤¦à¥€, à´®à´²à´¯à´¾à´³à´‚**. Works with **no AWS account** via Demo Mode.
 
 ## Windows quick start (PowerShell)
 ```powershell
@@ -34,11 +36,11 @@ Your data never leaves your computer when you run it locally.
 | Cost scanner | stopped EC2, unattached EBS, unused Elastic IPs, snapshots older than 90 days, running NAT gateways |
 | Security scanner | public S3 buckets, SG open to 0.0.0.0/0 on 22/3389, IAM users without MFA |
 | Estimates | price table in `config.py`; every number labeled *estimate* |
-| Forecast | spent + last-7-day average × remaining days, ± 1σ range; fallback if Cost Explorer is off |
-| Anomaly alert | day > mean(prev 7) + 2.5 × max(σ, 10% mean) |
-| Health score | `100 − min(40, waste/5) − min(60, Σ security weights)`; fully explained in the UI |
+| Forecast | spent + last-7-day average Ã— remaining days, Â± 1Ïƒ range; fallback if Cost Explorer is off |
+| Anomaly alert | day > mean(prev 7) + 2.5 Ã— max(Ïƒ, 10% mean) |
+| Health score | `100 âˆ’ min(40, waste/5) âˆ’ min(60, Î£ security weights)`; fully explained in the UI |
 | AI explainer | rule-based in 4 languages; optional Bedrock from structured facts only, auto-fallback |
-| **Savings Simulator** | tick findings → see new score + savings before you fix anything |
+| **Savings Simulator** | tick findings â†’ see new score + savings before you fix anything |
 | **Fix-order planner** | ranked checklist, progress saved in SQLite |
 | **Ask BillShield** | grounded Q&A: answers only from your findings, no invented data |
 | **Bill Shock Meter** | forecast vs your budget at a glance |
@@ -50,18 +52,19 @@ Your data never leaves your computer when you run it locally.
 - PDF reports are **English only** (Helvetica has no Tamil/Hindi/Malayalam glyphs; bundling Noto fonts needs complex-script shaping that ReportLab doesn't do reliably).
 - Translations are AI-assisted: **have native speakers review them**.
 - "Idle" EC2 (CPU-based) detection is not included; stopped instances are.
-- Prices are approximate estimates — verify at aws.amazon.com/pricing. AWS free-tier rules change; check current AWS docs.
-- Cost Explorer costs about $0.01/request. Bedrock and App Runner/EC2 can cost money. Nothing here was deployed or tested against a real AWS account — only against `moto` mocks.
+- Prices are approximate estimates â€” verify at aws.amazon.com/pricing. AWS free-tier rules change; check current AWS docs.
+- Cost Explorer costs about $0.01/request. Bedrock and App Runner/EC2 can cost money. Nothing here was deployed or tested against a real AWS account â€” only against `moto` mocks.
 - Favicon is an emoji; the SVG logo is in `dashboard/assets/logo.svg`.
 - Light theme is basic; dark is the polished default.
 
 ## Architecture
 ```
-Streamlit UI ──> scanners (boto3, read-only) ──> findings ──> scoring / forecast / anomaly / ai / ask
-      │                                                          │
-      └── SQLite (settings, audit log, plan) <── actions (dry-run default) ──> alerts (SNS)
-EventBridge ──> Lambda (infra/lambda_handler.py) ──> scan ──> SNS email
+Streamlit UI â”€â”€> scanners (boto3, read-only) â”€â”€> findings â”€â”€> scoring / forecast / anomaly / ai / ask
+      â”‚                                                          â”‚
+      â””â”€â”€ SQLite (settings, audit log, plan) <â”€â”€ actions (dry-run default) â”€â”€> alerts (SNS)
+EventBridge â”€â”€> Lambda (infra/lambda_handler.py) â”€â”€> scan â”€â”€> SNS email
 ```
 
 ## Security
 Read-only IAM policy in `infra/`. No hardcoded secrets (`.env`, profiles, IAM roles). Inputs validated (allocation-id regex, typed confirmation). Defensive checks only. See `infra/DEPLOY.md` before deploying.
+
