@@ -1,81 +1,79 @@
-# 🛡️ BillShield -AWS — Cloud Cost & Security Guardian for Students
+# 🛡️ BillShield-AWS — Cloud Cost & Security Guardian for Students
 
-\<p align="center">
-&#x20; \<strong>Catch the waste. Close the risk. Before the bill arrives.\</strong>
-\</p>
+**Catch the waste. Close the risk. Before the bill arrives.**
 
-\<p align="center">
-&#x20; \<a href="[https://billshield-kiran.streamlit.app/](https://billshield-kiran.streamlit.app/)">
-&#x20;   \<img src="[https://img.shields.io/badge/🚀\_Live_Demo-Try_BillShield-2ea44f?style=for-the-badge](https://img.shields.io/badge/🚀_Live_Demo-Try_BillShield-2ea44f?style=for-the-badge)" alt="Live Demo">
-&#x20; \</a>
-&#x20; \<img src="[https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge\&logo=python\&logoColor=white)" alt="Python">
-&#x20; \<img src="[https://img.shields.io/badge/Framework-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white](https://img.shields.io/badge/Framework-Streamlit-FF4B4B?style=for-the-badge\&logo=streamlit\&logoColor=white)" alt="Streamlit">
-&#x20; \<img src="[https://img.shields.io/badge/Cloud-AWS-orange?style=for-the-badge&logo=amazonaws&logoColor=white](https://img.shields.io/badge/Cloud-AWS-orange?style=for-the-badge\&logo=amazonaws\&logoColor=white)" alt="AWS">
-&#x20; \<img src="[https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)" alt="MIT License">
-\</p>
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Try_BillShield-success?style=for-the-badge&logo=streamlit)](https://billshield-kiran.streamlit.app/)
+![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
+![AWS](https://img.shields.io/badge/Cloud-AWS-orange?style=for-the-badge&logo=amazonaws)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ---
 
 ## 🚀 Live Demo
 
-**Try BillShield without creating an AWS account!**
+**Explore BillShield without creating an AWS account!**
 
-🌐 **Live Application:** [https://billshield-kiran.streamlit.app/](https://billshield-kiran.streamlit.app/)
+🔗 **Live Application:** https://billshield-kiran.streamlit.app/
 
-- Demo Mode uses synthetic AWS data.
-- No AWS account is required to explore the demo.
-- Explore cloud cost monitoring, security findings, forecasting and savings simulation.
+- Try the application using Demo Mode.
+- Explore synthetic AWS resource findings.
+- View cost forecasts and security analysis.
+- Test the Savings Simulator.
+- Explore the interactive dashboard.
 
-> Note: The live demo runs in Demo Mode. Connect your own AWS account only when using a locally configured instance.
+> **Note:** The hosted application uses synthetic data in Demo Mode. Real AWS scanning requires a locally configured instance.
 
 ---
 
-## 📌 About BillShield
+## 📌 About the Project
 
-**BillShield v2** is a cloud cost optimization and security monitoring application designed to help students and developers understand, monitor and manage their AWS cloud resources.
+**BillShield-AWS** is an AWS cloud cost optimization and security monitoring application designed to help students and developers understand and manage their cloud resources.
 
-Cloud services can generate unexpected bills when resources are left unused or security configurations are mismanaged.
+Cloud services can generate unexpected bills when resources are unused or security configurations are mismanaged.
 
-BillShield helps identify potential cloud waste, detect common security misconfigurations, estimate cloud expenses and understand possible savings through an interactive dashboard.
+BillShield helps users identify potential cloud waste, detect common security misconfigurations, estimate monthly expenses and understand possible savings through an interactive Streamlit dashboard.
 
-It combines AWS resource scanning, cost forecasting, security analysis and explainable findings in one easy-to-use application.
+It combines AWS resource scanning, cost forecasting, security analysis and explainable findings in one application.
 
-### 🎯 What BillShield Does
+### 🎯 Main Objectives
 
-- Detects potentially wasted AWS resources.
-- Identifies common AWS security misconfigurations.
-- Estimates cloud costs and predicts month-end spending.
-- Calculates an explainable cloud health score.
-- Provides AI-assisted explanations in multiple languages.
-- Simulates potential savings before taking action.
-- Supports safe, confirmation-based remediation.
+- Identify potentially wasted AWS resources.
+- Detect common cloud security risks.
+- Estimate cloud expenses.
+- Forecast month-end spending.
+- Improve cloud resource awareness.
+- Help users understand security findings.
+- Simulate savings before applying fixes.
 
 ---
 
 ## ✨ Key Features
 
-| Feature               | Description                                                                                                        |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| ☁️ Cost Scanner       | Detects stopped EC2 instances, unattached EBS volumes, unused Elastic IPs, old snapshots and running NAT Gateways. |
-| 🔐 Security Scanner   | Identifies public S3 buckets, risky security group rules and IAM users without MFA.                                |
-| 💰 Cost Estimator     | Estimates potential AWS resource costs using configurable pricing data.                                            |
-| 📊 Cost Forecast      | Predicts month-end spending using recent usage trends.                                                             |
-| 🚨 Anomaly Detection  | Identifies unusual daily spending patterns.                                                                        |
-| ❤️ Cloud Health Score | Calculates an explainable score based on waste and security findings.                                              |
-| 🤖 AI Explainer       | Explains technical findings in simple language.                                                                    |
-| 💡 Savings Simulator  | Estimates savings and score improvements before applying fixes.                                                    |
-| 📋 Fix-Order Planner  | Provides a prioritized checklist for resolving findings.                                                           |
-| 💬 Ask BillShield     | Answers questions using available scan findings.                                                                   |
-| 📈 Bill Shock Meter   | Compares forecasted expenses against your configured budget.                                                       |
-| ⚙️ Settings           | Supports language, theme, currency, budget and optional integrations.                                              |
-| 🛠️ Safe Actions      | Supports dry-run operations and explicitly confirmed Elastic IP release actions.                                   |
-| 📄 Reports            | Generates CSV and PDF reports.                                                                                     |
+| Feature | Description |
+|---|---|
+| ☁️ Cost Scanner | Detects stopped EC2, unattached EBS, unused Elastic IPs, old snapshots and running NAT Gateways. |
+| 🔐 Security Scanner | Identifies public S3 buckets, risky security group rules and IAM users without MFA. |
+| 💰 Cost Estimator | Estimates AWS resource costs using configurable pricing data. |
+| 📊 Cost Forecast | Predicts month-end spending using recent spending trends. |
+| 🚨 Anomaly Detection | Identifies unusual daily spending patterns. |
+| ❤️ Cloud Health Score | Provides an explainable score based on waste and security findings. |
+| 🤖 AI Explainer | Explains technical findings in simple language. |
+| 💡 Savings Simulator | Previews potential savings before applying fixes. |
+| 📋 Fix-Order Planner | Provides a prioritized checklist for resolving findings. |
+| 💬 Ask BillShield | Answers questions using available scan findings. |
+| 📈 Bill Shock Meter | Compares forecasted expenses against your budget. |
+| ⚙️ Settings | Supports language, theme, currency, budget and optional integrations. |
+| 🛠️ Safe Actions | Provides dry-run operations and confirmed Elastic IP release actions. |
+| 📄 Reports | Generates CSV and PDF reports. |
 
 ---
 
 ## 🔍 AWS Resources Monitored
 
-### Cost Optimization Scanner
+### 1. Cost Optimization Scanner
+
+BillShield identifies potentially unnecessary AWS resources:
 
 - Stopped EC2 instances.
 - Unattached EBS volumes.
@@ -83,35 +81,39 @@ It combines AWS resource scanning, cost forecasting, security analysis and expla
 - EBS snapshots older than 90 days.
 - Running NAT Gateways.
 
-### Security Scanner
+### 2. Security Scanner
+
+BillShield checks for common AWS security issues:
 
 - Publicly accessible S3 buckets.
-- Security groups allowing unrestricted access (`0.0.0.0/0`) on:
-  - Port 22 — SSH
-  - Port 3389 — RDP
+- Security groups allowing unrestricted access (`0.0.0.0/0`) on port 22 (SSH).
+- Security groups allowing unrestricted access (`0.0.0.0/0`) on port 3389 (RDP).
 - IAM users without Multi-Factor Authentication (MFA).
 
 ---
 
-## 📊 Cost Forecasting & Intelligence
+## 📊 Cloud Cost Intelligence
 
-BillShield includes multiple analysis features to help users understand cloud spending.
+### Month-End Forecast
 
-**1. Month-End Cost Forecast**
+Estimates month-end spending using:
 
-Uses current spending and the average spending over the previous seven days to estimate the remaining month's cost.
+- Current spending.
+- Average spending over the previous seven days.
+- Remaining days in the month.
+- An estimated uncertainty range.
 
-**2. Anomaly Detection**
+### Anomaly Detection
 
-Identifies unusual daily spending when it exceeds the previous seven-day mean by a configured statistical threshold.
+Identifies unusual daily spending using a statistical threshold based on the previous seven days.
 
-**3. Cloud Health Score**
+### Cloud Health Score
 
-Provides an explainable score based on detected waste and security findings.
+Calculates an explainable score based on detected cloud waste and security findings.
 
-**4. Savings Simulator**
+### Savings Simulator
 
-Allows users to select findings and preview estimated savings and score improvements before applying any changes.
+Allows users to select findings and preview estimated savings and health score improvements before taking action.
 
 ---
 
@@ -119,12 +121,14 @@ Allows users to select findings and preview estimated savings and score improvem
 
 BillShield supports four interface languages:
 
-- 🇬🇧 English
-- 🇮🇳 தமிழ் (Tamil)
-- 🇮🇳 हिन्दी (Hindi)
-- 🇮🇳 മലയാളം (Malayalam)
+| Language | Support |
+|---|---|
+| English | 🇬🇧 |
+| Tamil | தமிழ் |
+| Hindi | हिन्दी |
+| Malayalam | മലയാളം |
 
-The AI explainer uses rule-based explanations, with optional Amazon Bedrock integration.
+The AI explainer provides rule-based explanations, with optional Amazon Bedrock integration.
 
 ---
 
@@ -163,18 +167,18 @@ flowchart TD
 
 ## 🛠️ Technology Stack
 
-| Category                | Technologies                 |
-| ----------------------- | ---------------------------- |
-| Programming Language    | Python                       |
-| Frontend / Dashboard    | Streamlit                    |
-| AWS SDK                 | Boto3                        |
-| Cloud Platform          | Amazon Web Services          |
-| Database                | SQLite                       |
-| AI Integration          | Amazon Bedrock (Optional)    |
-| Testing                 | Pytest, Moto                 |
-| Reporting               | CSV, ReportLab PDF           |
-| Automation Architecture | EventBridge, AWS Lambda, SNS |
-| Version Control         | Git and GitHub               |
+| Category | Technologies |
+|---|---|
+| Programming Language | Python |
+| Dashboard | Streamlit |
+| AWS SDK | Boto3 |
+| Cloud Platform | Amazon Web Services |
+| Database | SQLite |
+| AI Integration | Amazon Bedrock (Optional) |
+| Testing | Pytest, Moto |
+| Reporting | CSV, ReportLab PDF |
+| Automation | EventBridge, AWS Lambda, SNS |
+| Version Control | Git, GitHub |
 
 ---
 
@@ -182,6 +186,8 @@ flowchart TD
 
 ```text
 BUILD-BILLSHIELD-AWS/
+│
+├── .streamlit/
 │
 ├── dashboard/
 │   ├── app.py
@@ -195,26 +201,23 @@ BUILD-BILLSHIELD-AWS/
 │
 ├── tests/
 │
-├── requirements-dev.txt
 ├── config.py
-├── README.md
-└── .streamlit/
+├── requirements-dev.txt
+└── README.md
 ```
-
-> Additional modules and folders are maintained in the repository.
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation and Setup
 
 ### Prerequisites
 
 - Python 3.11 or higher.
 - Git.
-- AWS CLI (only required when connecting a real AWS account).
-- An AWS account (optional for Demo Mode).
+- AWS CLI (required only for connecting a real AWS account).
+- AWS account (optional for Demo Mode).
 
-### 1. Clone the Repository
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/Kirankumar43-byte/BUILD-BILLSHIELD-AWS.git
@@ -222,7 +225,7 @@ git clone https://github.com/Kirankumar43-byte/BUILD-BILLSHIELD-AWS.git
 cd BUILD-BILLSHIELD-AWS
 ```
 
-### 2. Create a Virtual Environment
+### Step 2: Create a Virtual Environment
 
 **Windows PowerShell:**
 
@@ -232,7 +235,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
+### Step 3: Install Dependencies
 
 ```powershell
 python -m pip install --upgrade pip
@@ -240,31 +243,33 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements-dev.txt
 ```
 
-### 4. Run Tests
+### Step 4: Run Tests
 
 ```powershell
 python -m pytest -q
 ```
 
-Expected result for the current test suite:
+Expected result from the documented test suite:
 
 ```text
 24 passed
 ```
 
-### 5. Start BillShield
+### Step 5: Run the Application
 
 ```powershell
 python -m streamlit run dashboard/app.py
 ```
 
-Open the displayed local URL in your browser and click **Try Demo Mode**.
+Open the local URL displayed in your terminal.
 
-> Windows tip: Use `python -m streamlit` instead of the bare `streamlit` command to avoid broken-launcher errors.
+Click **Try Demo Mode** to explore BillShield without an AWS account.
+
+> **Windows Tip:** Use `python -m streamlit` instead of the bare `streamlit` command to avoid broken-launcher errors.
 
 ---
 
-## 🔌 Connecting Your AWS Account
+## 🔌 Connecting an AWS Account
 
 BillShield supports connecting an AWS account for read-only resource scanning.
 
@@ -276,35 +281,37 @@ Configure an AWS profile:
 aws configure --profile billshield
 ```
 
-Use credentials belonging to an IAM user or role configured with the project's read-only policy:
+Use an IAM user or role configured with the project's read-only policy:
 
 `infra/iam_policy_readonly.json`
 
-Then select the AWS profile in BillShield and test the connection.
+Then:
 
-### Security Precautions
+1. Open BillShield.
+2. Select your AWS profile.
+3. Choose the required AWS regions.
+4. Click **Test Connection**.
+5. Start the read-only scan.
 
-- Never use AWS root account credentials.
-- Never commit AWS access keys or secret keys to GitHub.
-- Use the least-privilege IAM permissions.
-- Review the IAM policy before connecting.
-- Keep credentials private.
+The application displays a masked account ID and identity and rejects root account access.
+
+**Important:** Never use AWS root credentials or commit AWS access keys to GitHub.
 
 ---
 
-## 🔐 Security & Safe Actions
+## 🔐 Security and Safe Actions
 
 Security is an important part of BillShield.
 
-- AWS scanning is read-only.
+- AWS resource scanning is read-only.
 - Root account access is rejected.
-- Credentials pasted into the application are kept in memory for the browser session and are not saved or logged, according to the application design.
+- Pasted credentials are kept in memory for the browser session and are not saved or logged, according to the application design.
 - Dry-run mode is enabled by default.
-- Real Elastic IP release actions require Live Mode, the Settings switch and typed confirmation (`CONFIRM <id>`).
-- Actions are recorded in the audit log.
-- Inputs are validated before supported actions are processed.
+- Real Elastic IP release requires Live Mode, the Settings switch and typed confirmation.
+- Supported actions are recorded in the audit log.
+- Input validation is performed before supported actions.
 
-For deployment information, review:
+For deployment instructions, refer to:
 
 `infra/DEPLOY.md`
 
@@ -312,10 +319,10 @@ For deployment information, review:
 
 ## 🧪 Testing
 
-BillShield includes automated tests using:
+BillShield uses:
 
-- Pytest
-- Moto AWS mocks
+- **Pytest** for automated testing.
+- **Moto** for AWS service mocking.
 
 Run the test suite:
 
@@ -323,26 +330,28 @@ Run the test suite:
 python -m pytest -q
 ```
 
-The current documented test result is **24 passed**.
+The documented test result is:
 
-> Tests use mocked AWS services. The application has not been validated against a real AWS account.
+**24 passed**
+
+> Testing has been performed using mocked AWS services. The application has not been validated against a real AWS account.
 
 ---
 
-## ⚠️ Limitations & Important Notes
+## ⚠️ Limitations and Important Notes
 
-- AWS cost figures are approximate estimates and should be verified against official AWS pricing.
+- AWS cost figures are approximate estimates. Verify actual prices using official AWS pricing.
 - Cost Explorer requests may incur charges.
 - Amazon Bedrock usage may incur charges.
-- AWS infrastructure such as EC2 and App Runner may incur charges when deployed.
-- Idle EC2 detection based on CPU utilization is not currently included.
+- Deploying AWS infrastructure such as EC2 or App Runner may incur charges.
+- CPU-based idle EC2 detection is not currently included.
 - PDF reports are currently English-only.
 - Translations are AI-assisted and should be reviewed by native speakers.
 - The dark theme is the primary polished theme; the light theme is basic.
-- The live demo uses synthetic data.
-- Real AWS deployment and scanning have not been validated; testing is performed using mocked AWS services.
+- The hosted demo uses synthetic data.
+- Real AWS deployment and scanning have not been validated.
 
-Official AWS pricing: [https://aws.amazon.com/pricing/](https://aws.amazon.com/pricing/)
+Official AWS Pricing: https://aws.amazon.com/pricing/
 
 ---
 
@@ -351,13 +360,13 @@ Official AWS pricing: [https://aws.amazon.com/pricing/](https://aws.amazon.com/p
 Potential future enhancements:
 
 - Advanced cloud cost anomaly detection.
-- More AWS resource coverage.
-- Enhanced cloud security recommendations.
-- Improved multilingual PDF reporting.
+- Additional AWS resource coverage.
+- Improved cloud security recommendations.
+- Multilingual PDF reporting.
 - Additional cloud provider integrations.
 - More automated remediation options with explicit user approval.
 
-These are future development ideas, not claims of currently implemented functionality.
+These are planned improvements, not currently implemented features.
 
 ---
 
@@ -366,10 +375,10 @@ These are future development ideas, not claims of currently implemented function
 Contributions, suggestions and feedback are welcome!
 
 1. Fork this repository.
-2. Create a new feature branch.
+2. Create a new branch.
 3. Make your changes.
-4. Run the test suite.
-5. Submit a pull request.
+4. Run the tests.
+5. Submit a Pull Request.
 
 ---
 
@@ -377,33 +386,31 @@ Contributions, suggestions and feedback are welcome!
 
 This project is licensed under the **MIT License**.
 
-See the `LICENSE` file for more information.
+See the `LICENSE` file in the repository for details.
 
 ---
 
 ## 👨‍💻 Author
 
-**Kiran Kumar M**
+### Kiran Kumar M
 
-B.Tech — Artificial Intelligence and Data Science
+**B.Tech — Artificial Intelligence and Data Science**
 
-Interested in Cloud Computing, AWS, Cybersecurity, Artificial Intelligence and Software Development.
+Interested in:
 
-\<p align="left">
-&#x20; \<a href="[https://github.com/Kirankumar43-byte](https://github.com/Kirankumar43-byte)">
-&#x20;   \<img src="[https://img.shields.io/badge/GitHub-KiranKumar43--byte-181717?style=for-the-badge&logo=github](https://img.shields.io/badge/GitHub-KiranKumar43--byte-181717?style=for-the-badge\&logo=github)" alt="GitHub">
-&#x20; \</a>
-&#x20; \<a href="[https://billshield-kiran.streamlit.app/](https://billshield-kiran.streamlit.app/)">
-&#x20;   \<img src="[https://img.shields.io/badge/Live_Project-BillShield-2ea44f?style=for-the-badge&logo=streamlit](https://img.shields.io/badge/Live_Project-BillShield-2ea44f?style=for-the-badge\&logo=streamlit)" alt="BillShield">
-&#x20; \</a>
-\</p>
+- Cloud Computing and AWS
+- Cybersecurity
+- Artificial Intelligence and Machine Learning
+- Software Development
+
+**GitHub:** https://github.com/Kirankumar43-byte
+
+**Project Repository:** https://github.com/Kirankumar43-byte/BUILD-BILLSHIELD-AWS
+
+**Live Application:** https://billshield-kiran.streamlit.app/
 
 ---
 
-\<p align="center">
-&#x20; ⭐ If you find BillShield useful, consider starring this repository!
-\</p>
+⭐ If you find BillShield useful, consider giving this repository a star!
 
-\<p align="center">
-&#x20; \<strong>BillShield v2 — Catch the waste. Close the risk.\</strong>
-\</p>
+**BillShield v2 — Catch the waste. Close the risk. Before the bill arrives.**
