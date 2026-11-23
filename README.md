@@ -413,4 +413,4 @@ Interested in:
 
 ⭐ If you find BillShield useful, consider giving this repository a star!
 
-**BillShield v2 — Catch the waste. Close the risk. Before the bill arrives.**
+**BillShield-AWS — Catch the waste. Close the risk. Before the bill arrives.**
